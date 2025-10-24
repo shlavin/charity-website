@@ -27,7 +27,7 @@ const Projects = () => {
 
   return (
     <section id="Projects" className="py-16 bg-gray-50">
-      <div className="container mx-auto px-4">
+      <div className="w-full px-0">
         <h2 className="text-3xl font-bold text-center mb-10 text-gray-800" data-aos="fade-up">
           Our Projects
         </h2>
@@ -47,7 +47,6 @@ const Projects = () => {
               <div className="p-4">
                 <h3 className="text-xl font-semibold text-gray-800 mb-2">{project.title}</h3>
                 <p className="text-gray-600 text-sm">{project.description}</p>
-                
               </div>
             </div>
           ))}

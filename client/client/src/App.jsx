@@ -21,16 +21,18 @@ function App() {
 
   return (
     <>
-    <Banner/>
-    
+  <Banner />
+  
+  <div className="w-full max-w-none mx-0">
     <div className="bg-gray-100 text-gray-800 min-h-screen pt-20">
-      
       <HeroSection />
     </div>
-    <AboutUs/>
-    <Projects/>
-    <ContactUs/>
-    </>
+    
+    <AboutUs />
+    <Projects />
+    <ContactUs />
+  </div>
+</>
   );
 }
 
